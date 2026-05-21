@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRC 2026 — Indonesian Regional Competition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['Playfair Display', 'Georgia', 'serif'],
+                    },
+                    colors: {
+                        wardaya: {
+                            50: '#fef7ed',
+                            100: '#fdebd3',
+                            300: '#f5c28b',
+                            500: '#e8923b',
+                            600: '#d97706',
+                            700: '#b45309',
+                            800: '#92400e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-b from-slate-50 to-white min-h-screen">
+
+    <!-- ═══════════════════════════════════ -->
+    <!-- 🎪 HERO BANNER -->
+    <!-- ═══════════════════════════════════ -->
+    <header class="relative w-full">
+        <!-- Banner Image Placeholder -->
+        <div class="w-full h-64 md:h-96 bg-gradient-to-r from-wardaya-600 via-amber-500 to-wardaya-600 flex items-center justify-center relative overflow-hidden">
+            <div class="absolute inset-0 opacity-20" style="background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.3) 0%, transparent 70%);"></div>
+            <div class="text-center z-10 px-4">
+                <p class="text-white/80 text-sm md:text-base tracking-widest uppercase mb-2 font-light">
+                    <!-- 🖼️ Banner image goes here later! -->
+                    <i class="fas fa-image text-4xl md:text-6xl text-white/40 mb-4 block"></i>
+                    [ Banner Image Placeholder ]
+                </p>
+            </div>
+        </div>
+
+        <!-- Title Overlay -->
+        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-8 md:p-12">
+            <h1 class="font-serif text-4xl md:text-6xl font-bold text-white tracking-tight">
+                IRC 2026
+            </h1>
+            <p class="text-amber-300 text-lg md:text-xl mt-2 font-light tracking-wide">
+                Indonesian Regional Competition
+            </p>
+        </div>
+    </header>
+
+    <!-- ═══════════════════════════════════ -->
+    <!-- 📋 MAIN CONTENT -->
+    <!-- ═══════════════════════════════════ -->
+    <main class="max-w-7xl mx-auto px-4 py-16 md:py-24">
+
+        <!-- Section Intro -->
+        <div class="text-center mb-16">
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-slate-800 mb-4">
+                Bidang Lomba
+            </h2>
+            <p class="text-slate-500 text-lg max-w-2xl mx-auto">
+                Pilih bidang kompetisi untuk melihat informasi lebih lanjut
+            </p>
+            <div class="w-24 h-1 bg-wardaya-500 mx-auto mt-6 rounded-full"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════ -->
+        <!-- 🧪 COMPETITION CARDS GRID -->
+        <!-- ═══════════════════════════════════ -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- 🧬 BIOLOGI -->
+            <div class="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-slate-100 hover:border-wardaya-300">
+                <div class="h-48 bg-gradient-to-br from-green-400 to-emerald-600 flex items-center justify-center relative overflow-hidden">
+                    <i class="fas fa-dna text-6xl text-white/80 group-hover:scale-110 transition-transform duration-300"></i>
+                    <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <span class="text-white font-bold text-lg tracking-wider">[ 🖼️ Bio Image ]</span>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="font-serif text-2xl font-bold text-slate-800 mb-2">Biologi</h3>
+                    <p class="text-slate-500 text-sm mb-4">Eksplorasi kehidupan, genetika, dan ekosistem</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs text-slate-400 bg-slate-100 px-3 py-1 rounded-full">🧬 Biology</span>
+                        <span class="text-xs text-slate-300 italic">Link inactive</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📐 MATEMATIKA -->
+            <div class="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-slate-100 hover:border-wardaya-300">
+                <div class="h-48 bg-gradient-to-br from-blue-400 to-indigo-600 flex items-center justify-center relative overflow-hidden">
+                    <i class="fas fa-square-root-variable text-6xl text-white/80 group-hover:scale-110 transition-transform duration-300"></i>
+                    <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <span class="text-white font-bold text-lg tracking-wider">[ 🖼️ Math Image ]</span>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="font-serif text-2xl font-bold text-slate-800 mb-2">Matematika</h3>
+                    <p class="text-slate-500 text-sm mb-4">Logika, kalkulus, dan pemecahan masalah</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs text-slate-400 bg-slate-100 px-3 py-1 rounded-full">📐 Math</span>
+                        <span class="text-xs text-slate-300 italic">Link inactive</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 💻 KOMPUTER -->
+            <div class="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-slate-100 hover:border-wardaya-300 ring-2 ring-wardaya-300 ring-offset-2">
+                <div class="h-48 bg-gradient-to-br from-purple-400 to-fuchsia-700 flex items-center justify-center relative overflow-hidden">
+                    <i class="fas fa-code text-6xl text-white/80 group-hover:scale-110 transition-transform duration-300"></i>
+                    <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <span class="text-white font-bold text-lg tracking-wider">[ 🖼️ CS Image ]</span>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="font-serif text-2xl font-bold text-slate-800 mb-2">Komputer</h3>
+                    <p class="text-slate-500 text-sm mb-4">Algoritma, pemrograman, dan logika digital</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs text-slate-400 bg-slate-100 px-3 py-1 rounded-full">💻 CS</span>
+                        <span class="text-xs text-slate-300 italic">Link inactive</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ⚗️ KIMIA -->
+            <div class="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-slate-100 hover:border-wardaya-300">
+                <div class="h-48 bg-gradient-to-br from-red-400 to-rose-600 flex items-center justify-center relative overflow-hidden">
+                    <i class="fas fa-flask text-6xl text-white/80 group-hover:scale-110 transition-transform duration-300"></i>
+                    <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <span class="text-white font-bold text-lg tracking-wider">[ 🖼️ Chem Image ]</span>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="font-serif text-2xl font-bold text-slate-800 mb-2">Kimia</h3>
+                    <p class="text-slate-500 text-sm mb-4">Reaksi, struktur molekul, dan termodinamika</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs text-slate-400 bg-slate-100 px-3 py-1 rounded-full">⚗️ Chemistry</span>
+                        <span class="text-xs text-slate-300 italic">Link inactive</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ⚡ FISIKA -->
+            <div class="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-slate-100 hover:border-wardaya-300">
+                <div class="h-48 bg-gradient-to-br from-yellow-400 to-orange-600 flex items-center justify-center relative overflow-hidden">
+                    <i class="fas fa-atom text-6xl text-white/80 group-hover:scale-110 transition-transform duration-300"></i>
+                    <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <span class="text-white font-bold text-lg tracking-wider">[ 🖼️ Physics Image ]</span>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="font-serif text-2xl font-bold text-slate-800 mb-2">Fisika</h3>
+                    <p class="text-slate-500 text-sm mb-4">Mekanika, elektromagnetik, dan kuantum</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs text-slate-400 bg-slate-100 px-3 py-1 rounded-full">⚡ Physics</span>
+                        <span class="text-xs text-slate-300 italic">Link inactive</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🌌 ASTRONOMI -->
+            <div class="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-slate-100 hover:border-wardaya-300">
+                <div class="h-48 bg-gradient-to-br from-violet-600 to-slate-900 flex items-center justify-center relative overflow-hidden">
+                    <i class="fas fa-star text-6xl text-white/80 group-hover:scale-110 transition-transform duration-300"></i>
+                    <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <span class="text-white font-bold text-lg tracking-wider">[ 🖼️ Astro Image ]</span>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="font-serif text-2xl font-bold text-slate-800 mb-2">Astronomi</h3>
+                    <p class="text-slate-500 text-sm mb-4">Bintang, planet, dan mekanika langit</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs text-slate-400 bg-slate-100 px-3 py-1 rounded-full">🌌 Astronomy</span>
+                        <span class="text-xs text-slate-300 italic">Link inactive</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ═══════════════════════════════════ -->
+        <!-- 🔐 LOGIN SECTION -->
+        <!-- ═══════════════════════════════════ -->
+        <div class="mt-20 text-center">
+            <div class="inline-flex flex-col items-center gap-4 p-8 bg-slate-50 rounded-2xl border border-slate-200 max-w-md mx-auto">
+                <div class="w-16 h-16 bg-slate-200 rounded-full flex items-center justify-center mb-2">
+                    <i class="fas fa-lock text-2xl text-slate-400"></i>
+                </div>
+                <h3 class="font-serif text-xl font-bold text-slate-700">Peserta Login</h3>
+                <p class="text-slate-500 text-sm">
+                    Login peserta akan dibuka saat kompetisi dimulai.<br>
+                    <span class="text-wardaya-600 font-semibold">31 Mei 2026</span>
+                </p>
+                <button disabled
+                        class="inline-flex items-center gap-2 px-8 py-3 bg-slate-300 text-slate-500 rounded-lg font-semibold cursor-not-allowed transition">
+                    <i class="fas fa-sign-in-alt"></i>
+                    Login (Coming Soon)
+                </button>
+                <p class="text-xs text-slate-400 mt-2">
+                    Link kompetisi akan tersedia di halaman ini
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- ═══════════════════════════════════ -->
+    <!-- 🦶 FOOTER -->
+    <!-- ═══════════════════════════════════ -->
+    <footer class="bg-slate-800 text-slate-400 py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="font-serif text-xl text-white mb-2">IRC 2026</p>
+            <p class="text-sm mb-4">Indonesian Regional Competition</p>
+            <div class="flex justify-center gap-6 text-sm mb-6">
+                <span class="hover:text-wardaya-400 cursor-pointer transition">Biologi</span>
+                <span class="hover:text-wardaya-400 cursor-pointer transition">Matematika</span>
+                <span class="hover:text-wardaya-400 cursor-pointer transition">Komputer</span>
+                <span class="hover:text-wardaya-400 cursor-pointer transition">Kimia</span>
+                <span class="hover:text-wardaya-400 cursor-pointer transition">Fisika</span>
+                <span class="hover:text-wardaya-400 cursor-pointer transition">Astronomi</span>
+            </div>
+            <p class="text-xs text-slate-500">
+                © 2026 Wardaya College — All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
